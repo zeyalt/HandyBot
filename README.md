@@ -6,9 +6,10 @@
 
 HandyBot is my personal assistant for answering questions and providing advice about the electrical appliances in my home. Whether it's troubleshooting your washer, setting up your coffee machine, or understanding your fridge's error codes, HandyBot is here to help —- without needing a human handyman!
 
-![p1viz](powerbi_page1.png)
-
-![p1viz](powerbi_page2.png)
+Here are some examples of questions we can ask HandyBot: 
+![viz1](handybot-example1.jpg)
+![viz2](handybot-example2.jpg)
+![viz3](handybot-example3.jpg)
 
 ## 🏆 Key Features and Advantages
 

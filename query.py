@@ -1,12 +1,12 @@
-from get_embeddings_function import get_embeddings_function
-from langchain_chroma import Chroma
-from langchain.prompts import ChatPromptTemplate
 import argparse
-from langchain_openai import OpenAI
-
 import os
 
-from dotenv import load_dotenv 
+from dotenv import load_dotenv
+from langchain.prompts import ChatPromptTemplate
+from langchain_chroma import Chroma
+from langchain_openai import OpenAI
+
+from get_embeddings_function import get_embeddings_function
 
 load_dotenv()
 
@@ -43,8 +43,9 @@ def query_rag(query_text: str):
     model = OpenAI()
     response_text = model.invoke(prompt)
     sources = [doc.metadata.get("id", None) for doc, _score in results]
-    formatted_response = f"Response: {response_text}\nSources: {sources}"
-    return formatted_response
+    # formatted_response = f"Response: {response_text}\nSources: {sources}"
+    # return formatted_response
+    return response_text
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -52,4 +53,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     query_text = args.query_text
     llm_response = query_rag(query_text)
-    print(llm_response)
+    print(llm_response, "\n")
