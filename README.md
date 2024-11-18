@@ -11,7 +11,7 @@ Here are some examples of questions we can ask HandyBot:
 
 ![viz2](handybot-example2.jpg)
 
-![viz3](handybot-example3.ppg)
+![viz3](handybot-example3.png)
 
 ## 🏆 Key Features and Advantages
 
