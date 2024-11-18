@@ -7,7 +7,7 @@ from langchain_chroma import Chroma
 from get_embeddings_function import get_embeddings_function
 from openai import OpenAI
 from dotenv import load_dotenv
-# from langchain_community.vectorstores.chroma import Chroma
+
 load_dotenv()
 
 client = OpenAI(
