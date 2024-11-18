@@ -8,8 +8,10 @@ HandyBot is my personal assistant for answering questions and providing advice a
 
 Here are some examples of questions we can ask HandyBot: 
 ![viz1](handybot-example1.jpg)
+
 ![viz2](handybot-example2.jpg)
-![viz3](handybot-example3.jpg)
+
+![viz3](handybot-example3.ppg)
 
 ## 🏆 Key Features and Advantages
 
